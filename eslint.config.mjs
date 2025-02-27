@@ -11,6 +11,9 @@ export default [
     pluginJs.configs.recommended,
     ...tseslint.configs.recommended,
     {
+        env: {
+            node: true
+        },
         rules: {
             'no-unused-vars': ['error'],
             'no-undef': ['error'],
