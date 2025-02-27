@@ -1,5 +1,5 @@
 export default (source: string): string => {
-    const t = source.replaceAll('\r','') //CRLFの無効化
+    const molded = source.replaceAll('\r','') //CRLFの無効化
         .split('\n')
         .map(e=>
             e.endsWith('//') ? //エスケープ済みの場合の処理
@@ -8,5 +8,5 @@ export default (source: string): string => {
                     e+' //' :
                     e+'//')
         .join('\n');
-    return t + t.split('').reverse().join(''); //回文にする
+    return molded + molded.split('').reverse().join(''); //回文にする
 };
