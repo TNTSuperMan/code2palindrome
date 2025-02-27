@@ -1,0 +1,19 @@
+{
+  "name": "code2palindrome",
+  "description": "Code to palindrome",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TNTSuperMan/code2palindrome"
+  },
+  "author": "TNTSuperMan",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "bin": {
+    "code2palindrome": "dist/index.js"
+  }
+}

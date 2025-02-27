@@ -1,0 +1,7 @@
+node_modules
+.gitignore
+.npmignore
+build.ts
+bun.lock
+index.ts
+tsconfig.json
