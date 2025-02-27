@@ -23,6 +23,8 @@
     "code2palindrome": "dist/cli.js"
   },
   "scripts": {
+    "build": "bun build.ts",
+    "test": "bun test",
     "lint": "eslint"
   }
 }
