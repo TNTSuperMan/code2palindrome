@@ -1,7 +1,7 @@
 {
   "name": "code2palindrome",
   "description": "Code to palindrome",
-  "version": "0.0.0",
+  "version": "0.0.42",
   "module": "dist/module.js",
   "repository": {
     "type": "git",
