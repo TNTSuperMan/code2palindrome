@@ -1,7 +1,7 @@
 import { build } from "bun";
 
 build({
-    entrypoints: ["src/index.ts"],
+    entrypoints: ["src/cli.ts", "src/module.ts"],
     minify: true,
     target: "node",
     outdir: "dist"
