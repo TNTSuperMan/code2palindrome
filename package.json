@@ -2,6 +2,7 @@
   "name": "code2palindrome",
   "description": "Code to palindrome",
   "version": "0.0.0",
+  "module": "dist/module.js",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/TNTSuperMan/code2palindrome"
@@ -19,7 +20,7 @@
     "typescript": "^5"
   },
   "bin": {
-    "code2palindrome": "dist/index.js"
+    "code2palindrome": "dist/cli.js"
   },
   "scripts": {
     "lint": "eslint"
