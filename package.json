@@ -26,7 +26,6 @@
   "scripts": {
     "build": "bun build.ts",
     "test": "bun test",
-    "lint": "eslint",
-    "prepare": "husky"
+    "lint": "eslint"
   }
 }
